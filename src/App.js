@@ -11,7 +11,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("all");
   const [filteredTodos, setFilteredTodos] = useState([]);
-  const [user, setUser] = useState();
+  const [user, setUser] = useState("");
   const [userState, setUserState] = useState([]);
 
   useEffect(() => {
