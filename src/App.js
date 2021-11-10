@@ -67,8 +67,6 @@ function App() {
     await setUser(e.target.value);
   };
   const formSubmitHandler = async (e) => {
-    console.log(user);
-    console.log(userState);
     e.preventDefault();
     await setUserState([user]);
     setUser("");
