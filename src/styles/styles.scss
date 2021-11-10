@@ -1,0 +1,56 @@
+@media (max-width: 480px) {
+  #first-form {
+    display: inline-block;
+  }
+  #name-box {
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  #repeat {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  /*.todo-input {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 50%;
+  }
+  .todo-button {
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  */
+
+  select {
+    width: auto;
+    border-radius: 5px;
+    font-size: small;
+    margin-top: 10px;
+  }
+  .select::after {
+    border-radius: 1px;
+    font-size: small;
+    margin-top: 10px;
+  }
+  .select select option {
+    height: 30px;
+  }
+  .todo-input {
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .todo-button {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+}

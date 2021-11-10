@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import "./styles/styles.scss";
 import Form from "./components/Form";
 
 import TodoList from "./components/TodoList";
@@ -77,18 +78,23 @@ function App() {
       <header>
         <h1>Toyosi's To-Do App</h1>
       </header>
-      <div>
+      <div id="repeat">
         <h3>
           Repeat after me: I will be the most organised and productive version
           of myself today!
         </h3>
         <span></span>
       </div>
-      <form onSubmit={formSubmitHandler}>
+      <form id="first-form" onSubmit={formSubmitHandler}>
         <h4 className="name-text">
           Enter your name to personalise this to-do app:
         </h4>
-        <input value={user} onChange={setNameHandler} type="text" />
+        <input
+          id="name-box"
+          value={user}
+          onChange={setNameHandler}
+          type="text"
+        />
         <button id="name-button" type="submit">
           set name!
         </button>

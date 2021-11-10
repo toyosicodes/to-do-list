@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.App {
+  overflow: scroll;
+}
+.App {
+  @media screen and (max-width: 360px) {
+    width: 100%;
+  }
+}
 body {
   background-image: linear-gradient(lightpink, rgb(252, 174, 252), violet);
   color: white;
@@ -236,11 +244,4 @@ header {
 span {
   width: 100%;
   display: inline-block;
-}
-@media screen and (max-width: 480px) {
-  form {
-    width: 40%;
-    padding: 1px 2px;
-    box-sizing: border-box;
-  }
 }
