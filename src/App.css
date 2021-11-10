@@ -8,9 +8,6 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  @media screen and (max-width: 1024px) {
-    display: block;
-  }
 }
 header {
   font-size: 2rem;
@@ -227,9 +224,23 @@ h4 {
 header {
   justify-content: space-evenly;
 }
-.todo-input {
-  @media screen and (max-width: 400px) {
-    font-size: 1rem;
-    width: 5px;
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  div h3 {
+    font-size: 20px;
+    text-align: justify;
+  }
+}
+span {
+  width: 100%;
+  display: inline-block;
+}
+@media screen and (max-width: 480px) {
+  form {
+    width: 40%;
+    padding: 1px 2px;
+    box-sizing: border-box;
   }
 }

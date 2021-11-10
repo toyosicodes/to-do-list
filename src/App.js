@@ -82,6 +82,7 @@ function App() {
           Repeat after me: I will be the most organised and productive version
           of myself today!
         </h3>
+        <span></span>
       </div>
       <form onSubmit={formSubmitHandler}>
         <h4 className="name-text">
