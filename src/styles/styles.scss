@@ -27,17 +27,12 @@
 
   select {
     width: auto;
-    border-radius: 5px;
-    font-size: small;
-    margin-top: 10px;
   }
   .select::after {
-    border-radius: 1px;
-    font-size: small;
-    margin-top: 10px;
-  }
-  .select select option {
-    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
   }
   .todo-input {
     width: 60%;
@@ -50,7 +45,6 @@
   }
   .todo-button {
     margin-top: 0.8rem;
-
     border-radius: 5px;
   }
 }
